@@ -10,7 +10,7 @@ input.onButtonPressed(Button.AB, function () {
 })
 input.onButtonPressed(Button.B, function () {
     if (have_chance_for_radiocode == true) {
-        entered_radiocode = [EventBusSource.MICROBIT_ID_BUTTON_B]
+        entered_radiocode = [[EventBusSource.MICROBIT_ID_BUTTON_B], [EventBusSource.MICROBIT_ID_BUTTON_AB], [EventBusSource.MICROBIT_ID_BUTTON_B]]
     }
 })
 function check_radiocode () {
